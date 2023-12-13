@@ -38,6 +38,10 @@ module.exports = {
     'semi': [
       `error`,
       `never`
-    ]
+    ],
+    'no-var': `error`,
+    'prefer-const': `error`,
+    'spaced-comment': [`error`, `always`],
+    'no-undef': `error`,
   }
 }
