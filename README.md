@@ -6,6 +6,10 @@ This repository contains a custom `.eslintrc.js` configuration file that stores 
 
 The `.eslintrc.js` format is used because JavaScript files allow for comments, unlike JSON. This enables us to add explanations, clarifications, or documentation directly within the configuration file, making it easier to understand and maintain the lint rules.
 
+## Why Include `.vscode/settings.json`?
+
+The `.vscode/settings.json` file is included to share ESLint-related settings with anyone working on this project in Visual Studio Code. This ensures that the same linting rules and configurations are applied consistently across different environments, making collaboration smoother.
+
 ## Purpose
 
 The primary objective of this project is to:
