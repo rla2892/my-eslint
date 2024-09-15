@@ -1,0 +1,16 @@
+{
+  "name": "my-eslint",
+  "version": "1.0.0",
+  "description": "This project is for sharing eslint configuration across different projects",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sangjin Noah Kim",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^9.10.0"
+  }
+}
