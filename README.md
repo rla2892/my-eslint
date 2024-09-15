@@ -2,6 +2,10 @@
 
 This repository contains a custom `.eslintrc.js` configuration file that stores linting rules meant to be reused across multiple projects. The goal of this project is to provide a centralized location for maintaining consistent code quality standards.
 
+## Why `.js` Instead of JSON?
+
+The `.eslintrc.js` format is used because JavaScript files allow for comments, unlike JSON. This enables us to add explanations, clarifications, or documentation directly within the configuration file, making it easier to understand and maintain the lint rules.
+
 ## Purpose
 
 The primary objective of this project is to:
