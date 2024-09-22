@@ -3,12 +3,16 @@ const globals = require(`globals`)
 module.exports = [
     {
         files: [`**/*.js`, `**/*.cjs`, `**/*.mjs`, `**/*.jsx`, `**/*.ts`, `**/*.tsx`],
-        ignores: [`node_modules`],
+        ignores: [
+            `node_modules`,
+            `.next/**`,
+        ],
         languageOptions: {
             ecmaVersion: `latest`,
             sourceType: `module`,
             globals: {
                 ...globals.node, // Add Node.js globals
+                React: `readonly`, // React is read-only
             }
         },
         rules: {
