@@ -22,7 +22,8 @@ module.exports = [
             "semi": ["error", "never"], // No semicol
             "no-var": "error", // No var
             "prefer-const": "error", // Prefer const
-            "spaced-comment": ["error", "always"], // Always space comments
+            "no-multi-spaces": "error", // No multiple spaces
+            "spaced-comment": ["error", "always", { "markers": ["/"] }], // Allow triple slash comments
             "no-undef": "error", // No undefined
             "eqeqeq": "error", // Use ===
             "no-console": process.env.NODE_ENV === "production" ? "error" : "warn", // No console in production
