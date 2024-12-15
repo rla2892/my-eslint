@@ -31,6 +31,8 @@ module.exports = [
             "space-in-parens": ["error", "never"],
             "space-before-function-paren": ["error", "never"],
             "space-infix-ops": "error",
+            "eol-last": ["error", "always"],
+            "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
             "no-console": process.env.NODE_ENV === "production" ? "error" : "warn", // No console in production
             "no-debugger": process.env.NODE_ENV === "production" ? "error" : "warn", // No debugger in production
             // 'no-alert': process.env.NODE_ENV === "production" ? "error" : "warn", // No alert in production
