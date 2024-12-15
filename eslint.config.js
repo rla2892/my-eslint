@@ -26,6 +26,11 @@ module.exports = [
             "spaced-comment": ["error", "always", { "markers": ["/"] }], // Allow triple slash comments
             "no-undef": "error", // No undefined
             "eqeqeq": "error", // Use ===
+            "no-trailing-spaces": "error",
+            "no-mixed-spaces-and-tabs": "error",
+            "space-in-parens": ["error", "never"],
+            "space-before-function-paren": ["error", "never"],
+            "space-infix-ops": "error",
             "no-console": process.env.NODE_ENV === "production" ? "error" : "warn", // No console in production
             "no-debugger": process.env.NODE_ENV === "production" ? "error" : "warn", // No debugger in production
             // 'no-alert': process.env.NODE_ENV === "production" ? "error" : "warn", // No alert in production
@@ -35,4 +40,4 @@ module.exports = [
         },
     },
 ]
-  
+
