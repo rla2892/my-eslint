@@ -16,7 +16,7 @@ module.exports = [
             }
         },
         rules: {
-            "indent": ["error", 4], // 4 spaces
+            "indent": ["error", 4, { "SwitchCase": 1 }], // 4 spaces, 1 level for switch cases
             "linebreak-style": ["error", "windows"], // Windows linebreaks
             "quotes": ["error", "double", { "allowTemplateLiterals": true }], // Backticks
             "semi": ["error", "never"], // No semicol
